@@ -1,0 +1,576 @@
+@media screen and (max-width: 1480px) {
+  .товары {
+    .zak {
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 30px;
+      }
+    }
+  }
+  .Онас .top .right {
+    width: 43%;
+
+    h5 {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .товары {
+    .zak {
+      h1 {
+        left: 10%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .товары {
+    .zak {
+      h1 {
+        left: 6%;
+      }
+
+      p {
+        width: 660px;
+        left: 82px;
+      }
+    }
+  }
+
+  .Онас .top .right {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  footer {
+    gap: 40px;
+  }
+
+  .товары {
+    .zak {
+      h1 {
+        font-size: 40px;
+      }
+
+      p {
+        top: 170px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .товары .zak h1 {
+    font-size: 35px;
+    width: 700px;
+  }
+
+  .товары .zak p {
+    width: 600px;
+  }
+
+  footer {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .Онас .top .right {
+    width: 25%;
+
+    h5 {
+      font-size: 15px;
+    }
+
+    h4 {
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .товары .zak {
+    height: 400px;
+  }
+
+  .товары .zak h1 {
+    font-size: 30px;
+    width: 600px;
+  }
+
+  .товары .zak p {
+    font-size: 25px;
+    width: 500px;
+  }
+  .товары h2 {
+    font-size: 50px;
+  }
+  .Часто h1 {
+    font-size: 50px;
+  }
+
+  .Онас .top .left .box {
+    width: 310px;
+    height: 309px;
+  }
+
+  .Онас .top .left img {
+    width: 310px;
+    height: 309px;
+  }
+
+  .Онас .top .right {
+    width: 35%;
+
+    h5 {
+      font-size: 15px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+  }
+
+  footer .medil {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  footer .left {
+    width: 140px;
+
+    .logo img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  footer .medil {
+    h1 {
+      font-size: 20px;
+    }
+
+    ul {
+      gap: 20px;
+    }
+
+    ul li a {
+      font-size: 14px;
+    }
+  }
+
+  footer .right {
+    padding-top: 130px;
+
+    h6 {
+      font-size: 14px;
+    }
+
+    .icons {
+      gap: 14px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .Онас .bottom {
+    height: 300px;
+
+    h2 {
+      font-size: 25px;
+    }
+  }
+
+  .Онас .top .right h4 {
+    font-size: 15px;
+  }
+
+  .товары .zak {
+    height: 370px;
+
+    h1 {
+      font-size: 32px;
+      left: 16%;
+      width: 438px;
+    }
+
+    p {
+      font-size: 27px;
+      width: 441px;
+      left: 98px;
+    }
+
+    button {
+      left: 32%;
+      bottom: 35px;
+    }
+  }
+
+  .товары h2 {
+    font-size: 45px;
+  }
+  .Часто h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  .nav {
+    position: relative;
+    .logo {
+      position: absolute;
+      top: -15px;
+      left: 34%;
+      img {
+        position: relative;
+        top: 0;
+        width: 190px;
+        height: 190px;
+      }
+    }
+
+    .search {
+      width: 100%;
+      position: absolute;
+      top: 117px;
+      margin-left: 0;
+    }
+
+    select {
+      position: absolute;
+      top: 190px;
+      left: 0;
+      margin-left: 0;
+    }
+
+    .login {
+      position: absolute;
+      top: 190px;
+      right: 0;
+    }
+  }
+
+  .товары {
+    padding-top: 220px;
+  }
+
+  .Онас .top .left .box {
+    width: 275px;
+    height: 274px;
+  }
+
+  .Онас .top .left img {
+    width: 275px;
+    height: 274px;
+  }
+
+  .товары .zak button {
+    left: 35%;
+    bottom: 35px;
+  }
+
+  .Онас .top .right h4 {
+    margin-top: 15px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .left {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+      }
+    }
+
+    .medil {
+      margin-top: 30px;
+      width: 100%;
+      // justify-content: space-between;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 50px;
+    }
+
+    .right {
+      padding-top: 50px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h6 {
+        font-size: 20px;
+      }
+
+      .icons {
+        gap: 40px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .товары .zak {
+    h1 {
+      left: 10%;
+    }
+    p {
+      left: 50px;
+    }
+
+    button {
+      left: 30%;
+    }
+  }
+
+  .Онас {
+    .top {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 70px;
+
+      .left {
+        display: flex;
+        width: 100%;
+        margin-left: 20%;
+        // justify-content: center;
+        align-items: center;
+        .box {
+          width: 310px;
+          height: 309px;
+        }
+
+        img {
+          width: 310px;
+          height: 309px;
+        }
+      }
+
+      .right {
+        width: 100%;
+        text-align: start;
+
+        h5 {
+          font-size: 20px;
+        }
+        h4 {
+          font-size: 20px;
+        }
+
+        p {
+          font-style: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .товары .categore {
+    justify-content: center;
+    padding: 50px 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .товары .zak {
+    h1 {
+      width: 303px;
+      left: 17%;
+    }
+    p {
+      width: 309px;
+      left: 82px;
+    }
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .Часто .покупают {
+    justify-content: center;
+  }
+
+  .nav .logo img {
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  .Онас .bottom {
+    flex-direction: column;
+    justify-content: start;
+
+    h2 {
+      margin-top: 20px;
+    }
+
+    p {
+      display: block;
+      padding: 20% 20%;
+      font-size: 20px;
+      color: #ffff;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  .товары .zak {
+    h1 {
+      left: 13%;
+    }
+
+    p {
+      left: 56px;
+    }
+
+    button {
+      left: 27%;
+    }
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .товары .zak {
+    height: 300px;
+
+    h1 {
+      left: 11%;
+      font-size: 24px;
+    }
+
+    p {
+      width: 280px;
+      left: 45px;
+      top: 138px;
+      font-size: 20px;
+    }
+
+    button {
+      width: 158px;
+      height: 72px;
+      left: 28%;
+      bottom: 30px;
+    }
+  }
+
+  .Онас .top .left {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  footer .medil {
+    gap: 0;
+
+    ul {
+      text-align: center;
+      width: 170px;
+    }
+  }
+
+  .Онас .top .left {
+    .box {
+      width: 275px;
+      height: 274px;
+    }
+
+    img {
+      width: 275px;
+      height: 274px;
+    }
+  }
+
+  .товары .zak {
+    h1 {
+      width: 234px;
+    }
+
+    p{
+        width: 229px;
+        left: 43px;
+    }
+
+    button{
+        left: 25%;
+    }
+  }
+
+  .товары h2{
+    font-size: 30px;
+  }
+
+  .Часто h1{
+    font-size: 30px;
+  }
+
+  .Онас h1{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .nav {
+    width: 95%;
+  }
+
+  .товары .zak{
+    width: 95%;
+
+    h1{
+        font-size: 32px;
+        width: 309px;
+    }
+
+    p{
+        font-size: 27px;
+        width: 300px;
+    }
+
+    button{
+        left: 28%;
+        bottom: 10px;
+    }
+  }
+
+  .Онас{
+    width: 95%;
+  }
+
+    footer{
+      padding: 0 2.5% 80px 2.5%;
+    }
+}

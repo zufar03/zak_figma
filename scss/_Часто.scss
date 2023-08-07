@@ -1,0 +1,86 @@
+.Часто{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button{
+        width: 196px;
+        height: 80px;
+        border-radius: 15px;
+        background-color: #00AC73;
+        border: none;
+        margin-top: 58px;
+        transition: all .5s linear;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+        a{
+            color: #ffff;
+            font-weight: 400;
+            font-size: 20px;
+
+        }
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 60px;
+        color: #000;
+        margin-top: 50px;
+    }
+
+    .покупают{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 30px;
+        justify-content: space-between;
+        .box{
+            width: 230px;
+            height: 300px;
+            background-color: #ffff;
+            border-radius: 30px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+            padding: 14px 14px;
+
+            img{
+                width: 100%;
+            }
+            
+            .sel{
+                margin-top: 54px;
+            }
+
+            .sell{
+                margin-top: 16px;
+            }
+
+            .sell1{
+                margin-top: 18px;
+            }
+
+            .sell2{
+                margin-top: 35px;
+            }
+            p{
+                // margin-top: 10px;
+                font-weight: 400;
+                font-size: 16px;
+                color: #7E7E7E;
+            }
+    
+            h3{
+                font-weight: 700;
+                font-size: 20px;
+                color: #00AC73;
+                margin-top: 39px;
+            }
+        }
+    }
+}

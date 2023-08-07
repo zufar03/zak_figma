@@ -1,0 +1,102 @@
+.Онас{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    // border: 1px solid #000;
+    margin: 0 auto;
+
+    h1{
+        font-weight: 700;
+        font-size: 60px;
+        color: #000;
+    }
+
+    .top{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+        .left{
+            width: 50%;
+            height: auto;
+            position: relative;
+            margin-top: 30px;
+    
+    
+            .box{
+                width: 410px;
+                height: 409px;
+                background-color: #00504D;
+                border-radius: 30px;
+            }
+
+            img{
+                width: 410px;
+                height: 409px;
+                border-radius: 30px;
+                position: absolute;
+                top: 65px;
+                left: 65px;
+
+            }
+        }
+
+        .right{
+            width: 50%;
+            height: auto;
+            margin-top: 30px;
+
+            h5{
+                font-weight: 600;
+                font-size: 25px;    
+                color: #000;            
+            }
+
+            h4{
+                margin-top: 30px;
+                font-weight: 400;
+                font-size: 25px;
+                color: #000;
+            }
+
+            p{
+                font-weight: 400;
+                font-size: 15px;
+                color: #7E7E7E;
+            }
+        }
+    }
+
+    .bottom{
+        width: 100%;
+        height: 400px;
+        background-color: #00504D;
+        display: flex;
+        margin-top: 100px;
+        border-radius: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+
+
+        img{
+            width: 45%;
+            height: 100%;
+        }
+
+        h2{
+            font-weight: 700;
+            font-size: 30px;
+            color: #fff;
+        }
+
+        p{
+            display: none;
+        }
+    }
+}
